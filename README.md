@@ -1,4 +1,4 @@
-# GRRF-optimization
+# GRRF-optimization for remote sensing data
 Demo of the paper Izquierdo-Verdiguier, E. and Zurita-Milla, R., 2020. An evaluation of Guided Regularized Random Forest for classification and regression tasks in remote sensing. International Journal of Applied Earth Observation and Geoinformation, 88, p.102051.
 
 This code was also used in the following contributions:
