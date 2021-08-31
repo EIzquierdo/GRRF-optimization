@@ -15,7 +15,8 @@ The code uses the [Salinas hyperspectral image](http://www.ehu.eus/ccwintco/inde
 To install the libraries:
 
     pip install -r requirements.txt
-    
+
+## Citation:
 If you use this code or part of this code in your work, please cite it as follow:
 
 **APA**:
