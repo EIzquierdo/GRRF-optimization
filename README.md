@@ -15,3 +15,15 @@ The code uses the [Salinas hyperspectral image](http://www.ehu.eus/ccwintco/inde
 To install the libraries:
 
     pip install -r requirements.txt
+    
+If you use this code or part of this code in your work, please cite it as follow:
+
+**APA**:
+
+Izquierdo-Verdiguier, E., & Zurita-Milla, R. (2021). GRRF-optimization: Guided Regularized Random Forest optimization for Resmote Sensing data (Version 0.3) [Computer software]. https://doi.org/10.5281/zenodo.5287370
+
+**BibTeX**:
+
+@misc{GRRF_optimization21, author = {Izquierdo-Verdiguier, Emma and Zurita-Milla, Raul}, doi = {10.5281/zenodo.5287370}, month = {8}, title = {{GRRF-optimization: Guided Regularized Random Forest optimization for Resmote Sensing data}}, year = {2021} }
+
+
