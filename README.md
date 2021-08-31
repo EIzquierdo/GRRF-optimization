@@ -1,7 +1,7 @@
 # GRRF-optimization for remote sensing data
 Demo of the paper Izquierdo-Verdiguier, E. and Zurita-Milla, R., 2020. An evaluation of Guided Regularized Random Forest for classification and regression tasks in remote sensing. International Journal of Applied Earth Observation and Geoinformation, 88, p.102051.
 
-This code was also used or was the base code in the following contributions:
+This code was also used in the following contributions:
 + Izquierdo-Verdiguier, E., Zurita-Milla, R., & Rolf, A. (2017). On the use of guided regularized random forests to identify crops in smallholder farm fields. In 2017 9th International Workshop on the Analysis of Multitemporal Remote Sensing Images (MultiTemp) (pp. 1-3). IEEE. Available [here](https://ieeexplore.ieee.org/document/8035248)
 + Izquierdo-Verdiguier, E. and Zurita-Milla, R. (2018). Use of Guided Regularized Random Forest for Biophysical Parameter Retrieval. IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium, pp. 5776-5779, IEEE. Available [here](https://ieeexplore.ieee.org/document/8517920)
 + Aguilar, R., Zurita-Milla, R., Izquierdo-Verdiguier, E., & A De By, R. (2018). A cloud-based multi-temporal ensemble classifier to map smallholder farming systems. Remote sensing, 10(5), 729. Available [here](https://www.mdpi.com/2072-4292/10/5/729)
