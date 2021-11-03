@@ -33,7 +33,8 @@ def ind_VfoldCross(data, selec):
         ind = np.where(data == i)
 
         if len(ind[0]) <= selec:
-            arr_train.extend(ind[0])
+            sel = random.sample(range(len(ind[0])), round(len(ind[0])*2/3))
+            arr_train.extend(ind[0][sel])
         else:
             sel = random.sample(range(len(ind[0])), selec)
             arr_train.extend(ind[0][sel])
@@ -77,7 +78,7 @@ def plot_confusion_matrix(cm, classes,
 
 def split_data(data, labels, Ntrain, Nval, method):
     
-    if method.find('class')>=0:
+    if method.find('class') >= 0:
         list_of_train = ind_VfoldCross(labels, Ntrain)
     else:
         list_of_train = random.sample(range(data.shape[0]),Ntrain)
@@ -98,17 +99,17 @@ def split_data(data, labels, Ntrain, Nval, method):
     else:
         labels_tr = [str(labels_tr[t]) for t in range(0, len(labels_tr))]
 
-    data_vl = data[list_of_val, :]
+    data_vl = X_sub[list_of_val, :]
     data_vl = np.array(data_vl, dtype="float64")
-    labels_vl = labels[list_of_val]
+    labels_vl = Y_sub[list_of_val]
     if method.find('class')>=0:
         labels_vl = [labels_vl[t][0] for t in range(0, len(labels_vl))]
     else:
         labels_vl = [labels_vl[t] for t in range(0, len(labels_vl))]
 
-    data_ts = data[list_of_test, :]
+    data_ts = X_sub[list_of_test, :]
     data_ts = np.array(data_ts, dtype="float64")
-    labels_ts = labels[list_of_test]
+    labels_ts = Y_sub[list_of_test]
     if method.find('class')>=0:
         labels_ts = [labels_ts[t][0] for t in range(0, len(labels_ts))]
     else:
