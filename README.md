@@ -1,6 +1,8 @@
 # GRRF-optimization for remote sensing data
 Demo of the paper Izquierdo-Verdiguier, E. and Zurita-Milla, R., 2020. An evaluation of Guided Regularized Random Forest for classification and regression tasks in remote sensing. International Journal of Applied Earth Observation and Geoinformation, 88, p.102051.
 
+The authors would like to thank to Houtao Deng for developing the [RRF package](https://cran.r-project.org/web/packages/RRF/RRF.pdf) which GRRF-optimization for remotes sensing data was based. 
+
 This code was also used in the following contributions:
 + Izquierdo-Verdiguier, E., Zurita-Milla, R., & Rolf, A. (2017). On the use of guided regularized random forests to identify crops in smallholder farm fields. In 2017 9th International Workshop on the Analysis of Multitemporal Remote Sensing Images (MultiTemp) (pp. 1-3). IEEE. Available [here](https://ieeexplore.ieee.org/document/8035248)
 + Izquierdo-Verdiguier, E. and Zurita-Milla, R. (2018). Use of Guided Regularized Random Forest for Biophysical Parameter Retrieval. IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium, pp. 5776-5779, IEEE. Available [here](https://ieeexplore.ieee.org/document/8517920)
